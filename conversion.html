@@ -11,12 +11,14 @@
 
   gtag('config', 'AW-345360380');
 </script>
-<!-- Event snippet for Website sale conversion page -->
+<!-- Event snippet for Purchase - OPC - 64bit conversion page -->
 <script>
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);
   gtag('event', 'conversion', {
-      'send_to': 'AW-345360380/lGL2CMChgvMCEPyP16QB',
+      'send_to': 'AW-345360380/1RvgCKOAgIAYEPyP16QB',
+      'value': 0.2,
+      'currency': 'USD',
       'transaction_id': urlParams.get('transaction_id')
   });
 </script>
